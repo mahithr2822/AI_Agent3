@@ -1,0 +1,19 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "airbnb": {
+      "command": "npx",
+      "args": ["-y", "@openbnb/mcp-server-airbnb"]
+    },
+    "duckduckgo-search": {
+      "command": "npx",
+      "args": ["-y", "ddg-mcp-search@latest"],
+      "env": {
+        "npm_config_cache": "/Users/mahithr/.cursor/worktrees/mcpdemo/ysk/.npm-cache"
+      }
+    }
+  }
+}
